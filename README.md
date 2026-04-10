@@ -46,6 +46,8 @@ The dataset contains booking information for resort and city hotels, including:
 	•	Supported demand planning and pricing decisions
 
 ## GitHub Repository Structure
+
+```text
 hotel-booking-analytics/
 │
 ├── data/
@@ -57,6 +59,12 @@ hotel-booking-analytics/
 │   ├── 02_eda.ipynb
 │   ├── 03_clustering.ipynb
 │   └── 04_forecasting.ipynb
+│
+├── src/
+│   ├── etl.py
+│   ├── eda.py
+│   ├── clustering.py
+│   └── forecasting.py
 │
 ├── outputs/
 │   ├── figures/
