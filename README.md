@@ -24,27 +24,28 @@ The dataset contains booking information for resort and city hotels, including:
 	•	Git & GitHub
 
 ### Workings:
-- ETL
+## ETL
 	•	Cleaned missing values and removed inconsistencies
 	•	Handled outliers using IQR
 	•	Created new features (total guests, total nights, total cost)
 	•	Saved processed dataset
 
-Exploratory Data Analysis
+## Exploratory Data Analysis
 	•	Analyzed booking trends, cancellations, and customer patterns
 	•	Created visualizations (heatmaps, line charts, boxplots)
 	•	Identified key insights on demand and revenue
 
-Clustering
+## Clustering
 	•	Applied K-Means and Hierarchical clustering
 	•	Identified customer segments (e.g., high-value, frequent cancellers)
 	•	Provided business insights for targeting and optimization
 
-Forecasting
+## Forecasting
 	•	Built ARIMA model to predict booking trends
 	•	Evaluated using MAE and RMSE
 	•	Supported demand planning and pricing decisions
 
+## GitHub Repository Structure
 hotel-booking-analytics/
 │
 ├── data/
