@@ -1,12 +1,12 @@
-Hotel Booking Analytics: ETL, Segmentation & Forecasting
+## Hotel Booking Analytics: ETL, Segmentation & Forecasting
 
-Project Overview
+### Project Overview
 
 This project focuses on analyzing hotel booking data to extract meaningful insights, identify customer segments, and forecast future demand. The study follows a complete data analytics pipeline including ETL (Extract, Transform, Load), Exploratory Data Analysis (EDA), Clustering, and Forecasting, supported by proper version control using Git.
 
 The objective is to support data-driven decision-making in hotel operations such as demand planning, pricing strategies, and customer management.
 
-Dataset
+### Dataset
 	•	Source: Kaggle
 	•	Dataset: Hotel Booking Demand Dataset
 	•	Link: https://www.kaggle.com/datasets/saadharoon27/hotel-booking-dataset
@@ -16,14 +16,15 @@ The dataset contains booking information for resort and city hotels, including:
 	•	Customer information (adults, children, country)
 	•	Booking outcomes (cancellations, ADR, reservation status)
 
-Tools & Technologies used:
+### Tools & Technologies used:
 	•	Python (Pandas, NumPy)
 	•	Data Visualization (Matplotlib, Seaborn)
 	•	Machine Learning (Scikit-learn)
 	•	Time Series Modeling (Statsmodels)
 	•	Git & GitHub
 
-ETL
+### Workings:
+- ETL
 	•	Cleaned missing values and removed inconsistencies
 	•	Handled outliers using IQR
 	•	Created new features (total guests, total nights, total cost)
