@@ -49,27 +49,12 @@ The dataset contains booking information for resort and city hotels, including:
 
 ```text
 hotel-booking-analytics/
-│
+Hotel-Booking-Data-Analysis/
 ├── data/
-│   ├── raw/
-│   └── processed/
-│
+│   └── hotel_bookings_clean.csv
 ├── notebooks/
-│   ├── 01_etl.ipynb
-│   ├── 02_eda.ipynb
-│   ├── 03_clustering.ipynb
-│   └── 04_forecasting.ipynb
-│
-├── src/
-│   ├── etl.py
-│   ├── eda.py
-│   ├── clustering.py
-│   └── forecasting.py
-│
+│   └── Hotel Booking Assignment Analysis.ipynb
 ├── outputs/
-│   ├── figures/
-│   ├── models/
-│   └── reports/
-│
 ├── README.md
-├── requirements.txt
+└── requirements.txt
+
